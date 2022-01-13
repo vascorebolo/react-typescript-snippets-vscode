@@ -1,6 +1,6 @@
 # React TypeScript Snippets
 
-React typescript snippets to boost productivity.
+React typescript snippets to boost productivity for [vscode](https://code.visualstudio.com/).
 
 ## List of snippets
 | prefix | result |

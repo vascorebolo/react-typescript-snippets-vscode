@@ -1,9 +1,9 @@
-# <img src="https://vascorebolo.com/react-ts-snippets-logo.png" width="20" height="20">  React TypeScript Snippets
+# <img src="https://vascorebolo.com/react-ts-snippets-logo.png" width="20" height="20">  React TS and JS Snippets
 
-[React](https://reactjs.org/) **JS** and **TYPESCRIPT** snippets to boost productivity for [vscode](https://code.visualstudio.com/).
+**Javascript** and **Typescript** snippets to boost productivity in [React](https://reactjs.org/) development for [vscode](https://code.visualstudio.com/).
 
 ## List of snippets
-### Typescript
+### Typescript (TS)
 | Prefix | Description |
 |---|---|
 | `tfc` | functional component |
@@ -12,13 +12,13 @@
 | `tret` | return of component template |
 | `tisc` | import styled components |
 
-### Javascript
+### Javascript (JS)
 Prefix | Description
 ---- |:--------
 `rfc→` | React functional component
 `rfcp→` | React functional component, without props (cleaner)
 
-### Typescript and JS
+### TS and JS
 Prefix | Description
 ---- |:--------
 `rcb→/cc→` | Curly braces with input inside, spaced `{ input }`

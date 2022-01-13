@@ -1,7 +1,8 @@
 {
     "name": "react-ts-snippets",
     "displayName": "react-ts-snippets",
-    "publisher": "vascorebolo",
+    "publisher": "Vasco Rebolo",
+    "icon": "https://vascorebolo.com/react-ts-snippets-logo.png",
     "description": "Useful snippets for react development with typescript.",
     "version": "0.0.1",
     "engines": {
@@ -10,13 +11,15 @@
     "keywords": [
       "react",
       "typescript",
+      "javascript",
       "react typescript",
       "keybindings",
       "snippets",
       "snippets react",
       "snippets react typescript",
-      "snippets react native typescript",
+      "snippets react native typescript"
     ],
+    "repository": "https://github.com/vascorebolo/react-typescript-snippets-vscode",
     "categories": [
         "Snippets"
     ],
@@ -29,7 +32,23 @@
             {
               "language": "typescriptreact",
               "path": "./snippets/snippets.code-snippets"
-          }
+            },
+            {
+              "language": "javascript",
+              "path": "./snippets/snippets.code-snippets"
+            },
+            {
+              "language": "javascriptreact",
+              "path": "./snippets/snippets.code-snippets"
+            },
+            {
+              "language": "typescript",
+              "path": "./snippets/snippets-ts.code-snippets"
+            },
+            {
+              "language": "typescriptreact",
+              "path": "./snippets/snippets-ts.code-snippets"
+            }
         ]
     }
 }

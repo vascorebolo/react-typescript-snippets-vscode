@@ -1,0 +1,56 @@
+{
+  "Functional component": {
+    "prefix": "tfc",
+    "body": [
+      "import React, { FC } from 'react';",
+      "",
+      "interface I${1}Props {",
+      "  ${2}",
+      "};",
+      "",
+      "const ${1}:FC<I${1}Props> = ({}) => {",
+      "  ${3}",
+      "};",
+      "",
+      "export default ${1};"
+    ]
+  },
+  "Functional component with use state": {
+    "prefix": "tfcs",
+    "body": [
+      "import React, { FC, useState } from 'react';",
+      "",
+      "interface I${1}Props {",
+      "  ${2}",
+      "};",
+      "",
+      "const ${1}:FC<I${1}Props> = ({}) => {",
+      "  const [${3}, set${3}] = useState($4);",
+      "",
+      "  ${5}",
+      "};",
+      "",
+      "export default ${1};"
+    ]
+  },
+  "Import styled components": {
+    "prefix": "tisc",
+    "body": ["import styled from 'styled-components';"]
+  },
+  "Return of the component template": {
+    "prefix": "tret",
+    "body": [
+      "return (",
+      "  ${1}",
+      ");"
+    ]
+  },
+  "Add interface for component props": {
+    "prefix": "tp",
+    "body": [
+      "interface I${1}Props {",
+      "  ${2}",
+      "};",
+    ]
+  }
+}

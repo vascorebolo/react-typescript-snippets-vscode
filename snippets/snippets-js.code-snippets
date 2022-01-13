@@ -1,0 +1,12 @@
+{
+  "stateless functional component": {
+    "prefix": "rfc",
+    "body": "import React from 'react'\nimport { $2 } from 'prop-types'\n\nconst ${1:MyComponent} = () => {\n  return (\n\n  )\n}\n\n${1:MyComponent}.propTypes = {\n  $3\n}\n\n${1:MyComponent}.defaultProps = {\n  $4\n}\n\n${1:MyComponent}.displayName = '${1:MyComponent}'\n\nexport default ${1:MyComponent}",
+    "description": "stateless functional component"
+  },
+  "stateless functional component, without props (cleaner)": {
+    "prefix": "rfcc",
+    "body": "import React from 'react'\n\nconst ${1:MyComponent} = () => {\n  return (\n\n  )\n}\n\n${1:MyComponent}.displayName = '${1:MyComponent}'\n\nexport default ${1:MyComponent}",
+    "description": "stateless functional component, without props (cleaner)"
+  },
+}

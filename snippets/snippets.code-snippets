@@ -1,56 +1,52 @@
 {
-  "Functional component": {
-    "prefix": "tfc",
-    "body": [
-      "import React, { FC } from 'react';",
-      "",
-      "interface I${1}Props {",
-      "  ${2}",
-      "};",
-      "",
-      "const ${1}:FC<I${1}Props> = ({}) => {",
-      "  ${3}",
-      "};",
-      "",
-      "export default ${1};"
-    ]
+  "{ input }": {
+    "prefix": "rcb",
+    "body": "{ ${1} };",
+    "description": "{ input }"
   },
-  "Functional component with use state": {
-    "prefix": "tfcs",
-    "body": [
-      "import React, { FC, useState } from 'react';",
-      "",
-      "interface I${1}Props {",
-      "  ${2}",
-      "};",
-      "",
-      "const ${1}:FC<I${1}Props> = ({}) => {",
-      "  const [${3}, set${3}] = useState($4);",
-      "",
-      "  ${5}",
-      "};",
-      "",
-      "export default ${1};"
-    ]
+  "{ input } (hit tab when rcb shows)": {
+    "prefix": "cc",
+    "body": "rcb",
+    "description": "{ input } (hit tab when rcb shows)"
   },
-  "Import styled components": {
-    "prefix": "tisc",
-    "body": ["import styled from 'styled-components';"]
+  "import statement with curly braces": {
+    "prefix": "rim",
+    "body": "import { $1 } from '${2}';",
+    "description": "import statement with curly braces"
   },
-  "Return of the component template": {
-    "prefix": "tret",
-    "body": [
-      "return (",
-      "  ${1}",
-      ");"
-    ]
+  "import statement without curly braces": {
+    "prefix": "ri",
+    "body": "import $1 from '${2}';",
+    "description": "import statement without curly braces"
   },
-  "Add interface for component props": {
-    "prefix": "tp",
-    "body": [
-      "interface I${1}Props {",
-      "  ${2}",
-      "};",
-    ]
+  "import ReactDom statement": {
+    "prefix": "rid",
+    "body": "import ReactDom from 'react-dom';",
+    "description": "import ReactDom statement"
+  },
+  "import React Native statement": {
+    "prefix": "rin",
+    "body": "import { $1 } from 'react-native';",
+    "description": "import React Native statement"
+  },
+  "import styled-components": {
+    "prefix": "ris",
+    "body": "import styled from 'styled-components';",
+    "description": "import styled-components"
+  },
+  "const styled component": {
+    "prefix": "rsc",
+    "body": "const ${1:StyledComponent} = styled.${2:tag}`\n  ${3:key}: ${4:value};\n`",
+    "description": "const styled component"
+  },
+  "destructuring of styles": {
+    "prefix": "rdst",
+    "body": "const { $1 } = styles",
+    "description": "destructuring of styles"
+  },
+  "long comment for documentation": {
+    "prefix": "/**",
+    "body": "/**\n* ${1:comment}\n*/",
+    "description": "long comment for documentation"
   }
 }

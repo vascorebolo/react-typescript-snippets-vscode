@@ -48,5 +48,19 @@
     "prefix": "/**",
     "body": "/**\n* ${1:comment}\n*/",
     "description": "long comment for documentation"
+  },
+  "use effect hook": {
+    "prefix": "rue",
+    "body": [
+      "useEffect(() => {",
+        "${1}",
+      "});"
+    ]
+  },
+  "use state hook": {
+    "prefix": "rus",
+    "body": [
+      "const [${1}, set${1}] = useState(${2});"
+    ]
   }
 }

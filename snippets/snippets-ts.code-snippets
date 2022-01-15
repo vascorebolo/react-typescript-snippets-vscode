@@ -33,10 +33,6 @@
       "export default ${1};"
     ]
   },
-  "Import styled components": {
-    "prefix": "tisc",
-    "body": ["import styled from 'styled-components';"]
-  },
   "Return of the component template": {
     "prefix": "tret",
     "body": [

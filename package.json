@@ -8,6 +8,7 @@
     "engines": {
         "vscode": "^1.63.0"
     },
+    "license": "MIT",
     "keywords": [
       "react",
       "typescript",

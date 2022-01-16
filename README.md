@@ -32,7 +32,7 @@ Prefix | Description
 `rus→` | Use state hook
 `rue→` | Use effect hook
 `rst→` | `const styles = {}`, often used in react native
-`rsc→` | Styled Component initialization: `const $StyledComponent = styled.$tag```
+`rsc→` | Styled Component initialization: `const $StyledComponent = styled.$tag``
 `rdst→` | destructuring of styles: `const {  } = styles`
 `/**→` | long comment for documentation purposes `/** some comment **/`
 

@@ -1,8 +1,8 @@
 {
-    "name": "react-ts-snippets",
+    "name": "react-ts-js-snippets",
     "displayName": "react-ts-snippets",
-    "publisher": "Vasco Rebolo",
-    "icon": "https://vascorebolo.com/tsjsnippets-logo.png",
+    "publisher": "VascoSilva",
+    "icon": "images/icon.png",
     "description": "Useful snippets for react development with typescript.",
     "version": "0.0.1",
     "engines": {

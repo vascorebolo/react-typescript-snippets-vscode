@@ -1,7 +1,7 @@
 {
   "{ input }": {
     "prefix": "rcb",
-    "body": "{ ${1} };",
+    "body": "{ ${1} }",
     "description": "{ input }"
   },
   "{ input } (hit tab when rcb shows)": {
@@ -36,7 +36,7 @@
   },
   "const styled component": {
     "prefix": "rsc",
-    "body": "const ${1:StyledComponent} = styled.${2:tag}`\n  ${3:key}: ${4:value};\n`",
+    "body": "const ${1:StyledComponent} = styled.${2:tag}`\n  ${3:key}: ${4:value};\n`;",
     "description": "const styled component"
   },
   "destructuring of styles": {
@@ -61,6 +61,14 @@
     "prefix": "rus",
     "body": [
       "const [${1}, set${1}] = useState(${2});"
+    ]
+  },
+  "functional component method": {
+    "prefix": "rfm",
+    "body": [
+      "const ${1} = (${2}) => {",
+      "  ${3}",
+      "};"
     ]
   }
 }

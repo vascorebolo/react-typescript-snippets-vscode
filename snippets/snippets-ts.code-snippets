@@ -25,9 +25,9 @@
       "};",
       "",
       "const ${1}:FC<I${1}Props> = ({}) => {",
-      "  const [${3}, set${3}] = useState($4);",
+      "  const [${3}, set${4}] = useState($5);",
       "",
-      "  ${5}",
+      "  ${6}",
       "};",
       "",
       "export default ${1};"

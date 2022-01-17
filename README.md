@@ -5,6 +5,15 @@
 **Javascript** and **Typescript** snippets to boost productivity in [React](https://reactjs.org/) development for [vscode](https://code.visualstudio.com/).
 This is a work in progress, more snippets will be added in the near future.
 
+## Examples
+Example of functional component in TS.
+
+![functional component](/images/example1.gif)
+
+Example of functional component with useState hook in TS.
+
+![functional component with state](/images/example2.gif)
+
 ## List of snippets
 ### Typescript (TS)
 | Prefix | Description |
@@ -35,4 +44,5 @@ Prefix | Description
 `rsc→` | Styled Component initialization: `const $StyledComponent = styled.$tag``
 `rdst→` | destructuring of styles: `const {  } = styles`
 `/**→` | long comment for documentation purposes `/** some comment **/`
+`rfm→` | functional component method
 

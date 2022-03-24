@@ -4,7 +4,7 @@
     "publisher": "VascoSilva",
     "icon": "images/icon.png",
     "description": "Useful snippets for react development with typescript.",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "engines": {
         "vscode": "^1.63.0"
     },

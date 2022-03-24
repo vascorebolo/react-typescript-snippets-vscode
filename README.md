@@ -38,7 +38,7 @@ Prefix | Description
 `ri→`  | Import statement without curly braces
 `ris→`  |  Import styled components
 `rfm→` | functional component method
-`rsc→` | Styled Component initialization: `const $StyledComponent = styled.$tag``
+`rsc→` | Styled Component initialization: `const $StyledComponent = styled.$tag`
 `rus→` | Use state hook
 `rue→` | Use effect hook
 `ruc→` | Use context hook

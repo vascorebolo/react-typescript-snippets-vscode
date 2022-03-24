@@ -4,6 +4,10 @@ All notable changes to the "react-ts-snippets" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.6.0] - 2022-03-24
+### Fixed
+- fix readme
+
 ## [0.5.0] - 2022-03-24
 ### Fixed
 - fix versions in changelog

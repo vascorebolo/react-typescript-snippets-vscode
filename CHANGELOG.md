@@ -4,6 +4,10 @@ All notable changes to the "react-ts-snippets" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.0] - 2022-03-24
+### Added
+- add snippets for react hooks
+- add snippets for next get server side props, static paths and static props
 ## [0.1.0] - 2022-01-16
 ### Fixed
 - fix readme file

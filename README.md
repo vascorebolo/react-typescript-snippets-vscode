@@ -22,27 +22,36 @@ Example of functional component with useState hook in TS.
 | `tfcs→` | functional component with useState hook |
 | `tp→` | add interface for component props |
 | `tret→` | return of component template |
+| `rust` | use state hook typed |
 
 ### Javascript (JS)
 Prefix | Description
----- |:--------
+|----|--------
 `rfc→` | React functional component
 `rfcp→` | React functional component, without props (cleaner)
 
 ### TS and JS
 Prefix | Description
----- |:--------
-`rcb` | Curly braces with input inside, spaced `{ input }`
+|----|--------
+`cb` | Curly braces with input inside, spaced `{ input }`
 `rim→` | Import statement with curly braces
 `ri→`  | Import statement without curly braces
-`rid→` | Import statement for ReactDom
-`rin→` | Import for react native
 `ris→`  |  Import styled components
+`rfm→` | functional component method
+`rsc→` | Styled Component initialization: `const $StyledComponent = styled.$tag``
 `rus→` | Use state hook
 `rue→` | Use effect hook
+`ruc→` | Use context hook
+`ruch→` | Custom hook statement
+`rid→` | Import statement for ReactDom
+`rin→` | Import for react native
 `rst→` | `const styles = {}`, often used in react native
-`rsc→` | Styled Component initialization: `const $StyledComponent = styled.$tag``
 `rdst→` | destructuring of styles: `const {  } = styles`
 `/**→` | long comment for documentation purposes `/** some comment **/`
-`rfm→` | functional component method
 
+### NeXt TS
+Prefix | Description
+|----|--------
+`tssp→` | server-side props function
+`tsp→` | static props function
+`tgp→` | static paths function

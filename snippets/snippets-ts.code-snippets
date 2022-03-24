@@ -5,11 +5,11 @@
       "import React, { FC } from 'react';",
       "",
       "interface I${1}Props {",
-      "  ${2}",
+      "\t${2}",
       "};",
       "",
       "const ${1}:FC<I${1}Props> = ({}) => {",
-      "  ${3}",
+      "\t${3}",
       "};",
       "",
       "export default ${1};"
@@ -21,13 +21,13 @@
       "import React, { FC, useState } from 'react';",
       "",
       "interface I${1}Props {",
-      "  ${2}",
+      "\t${2}",
       "};",
       "",
       "const ${1}:FC<I${1}Props> = ({}) => {",
-      "  const [${3}, set${4}] = useState($5);",
+      "\tconst [${3}, set${4}] = useState($5);",
       "",
-      "  ${6}",
+      "\t${6}",
       "};",
       "",
       "export default ${1};"
@@ -37,7 +37,7 @@
     "prefix": "tret",
     "body": [
       "return (",
-      "  ${1}",
+      "\t${1}",
       ");"
     ]
   },
@@ -45,8 +45,38 @@
     "prefix": "tp",
     "body": [
       "interface I${1}Props {",
-      "  ${2}",
+      "\t${2}",
       "};",
+    ]
+  },
+  "use state hook typed": {
+    "prefix": "rust",
+    "body": [
+      "const [${1}, set${2}] = useState<${3}>(${4});"
+    ]
+  },
+  "next get server side props": {
+    "prefix": "tssp",
+    "body": [
+      "export const getServerSideProps: GetServerSideProps = async (context) => {",
+      "\t${1}",
+      "};"
+    ]
+  },
+  "next get static props": {
+    "prefix": "tsp",
+    "body": [
+      "export const getStaticProps: GetStaticProps = async (context) => {",
+      "\t${1}",
+      "}"
+    ]
+  },
+  "next get static paths": {
+    "prefix": "tgp",
+    "body": [
+      "export const getStaticPaths: GetStaticPaths = async () => {",
+      "\t${1}",
+      "}"
     ]
   }
 }

@@ -1,12 +1,12 @@
 {
   "{ input }": {
-    "prefix": "rcb",
+    "prefix": "cb",
     "body": "{ ${1} }",
     "description": "{ input }"
   },
   "{ input } (hit tab when rcb shows)": {
     "prefix": "cc",
-    "body": "rcb",
+    "body": "cb",
     "description": "{ input } (hit tab when rcb shows)"
   },
   "import statement with curly braces": {
@@ -41,7 +41,7 @@
   },
   "destructuring of styles": {
     "prefix": "rdst",
-    "body": "const { $1 } = styles",
+    "body": "const { $1 } = styles;",
     "description": "destructuring of styles"
   },
   "long comment for documentation": {
@@ -54,21 +54,33 @@
     "body": [
       "useEffect(() => {",
         "${1}",
-      "});"
+      "}, [${2}]);"
     ]
   },
   "use state hook": {
     "prefix": "rus",
     "body": [
-      "const [${1}, set${1}] = useState(${2});"
+      "const [${1}, set${2}] = useState(${3});"
     ]
   },
   "functional component method": {
     "prefix": "rfm",
     "body": [
       "const ${1} = (${2}) => {",
-      "  ${3}",
+      "\t${3}",
       "};"
+    ]
+  },
+  "use context hook": {
+    "prefix": "ruc",
+    "body": [
+      "const { ${1} } = useContext(${2});"
+    ]
+  },
+  "custom hook statement": {
+    "prefix": "ruch",
+    "body": [
+      "const { ${1} } = use${2}(${3});"
     ]
   }
 }
